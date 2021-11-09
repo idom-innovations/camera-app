@@ -4,7 +4,7 @@ html, body{
   height: 100%;
   width: 100%;
   background-image: url('car-front.svg');
-  opacity:0.2;
+  opacity:1.0;
 }
 
 #camera, #camera--view, #camera--sensor, #camera--output{
