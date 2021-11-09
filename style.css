@@ -3,7 +3,10 @@ html, body{
   padding: 0;
   height: 100%;
   width: 100%;
+  background-image: url('images/car-front.svg');
+  opacity:0.2;
 }
+
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
     height: 100%;
