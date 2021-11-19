@@ -29,7 +29,7 @@ html, body{
     left: calc(75% - 100px);
 }
 #front-window-button{
-    width: 200px;
+    width: 40px;
     background-color: black;
     color: white;
     font-size: 16px;
@@ -40,11 +40,11 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(25% - 100px);
+    left: calc(25% - 20px);
 }
 
 #front-bumper-button{
-    width: 200px;
+    width: 40px;
     background-color: black;
     color: white;
     font-size: 16px;
@@ -55,11 +55,11 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(40% - 100px);
+    left: calc(40% - 20px);
 }
 
 #front-window-right-button{
-    width: 200px;
+    width: 40px;
     background-color: black;
     color: white;
     font-size: 16px;
@@ -70,7 +70,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(55% - 100px);
+    left: calc(55% - 20px);
 }
 
 .taken{
