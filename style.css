@@ -29,12 +29,12 @@ html, body{
     left: calc(75% - 100px);
 }
 #front-window-button{
-    width: 40px;
+    width: 80px;
     background-color: black;
     color: white;
     font-size: 16px;
     border-radius: 30px;
-    padding: 0px 20px;
+    padding: 15px 20px;
     border: none;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
@@ -44,12 +44,12 @@ html, body{
 }
 
 #front-bumper-button{
-    width: 40px;
+    width: 80px;
     background-color: black;
     color: white;
     font-size: 16px;
     border-radius: 30px;
-    padding: 0px 20px;
+    padding: 15px 20px;
     border: none;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
@@ -59,12 +59,12 @@ html, body{
 }
 
 #front-window-right-button{
-    width: 40px;
+    width: 80px;
     background-color: black;
     color: white;
     font-size: 16px;
     border-radius: 30px;
-    padding: 0px 20px;
+    padding: 15px 20px;
     border: none;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
