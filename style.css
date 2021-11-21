@@ -29,7 +29,7 @@ html, body{
     left: calc(75% - 100px);
 }
 #front-window-button{
-    width: 20px;
+    width: 40px;
     background-color: black;
     color: white;
     font-size: 16px;
