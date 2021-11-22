@@ -19,8 +19,15 @@ function cameraStart() {
     .catch(function(error) {
         console.error("Oops. Something is broken.", error);
     });
-    cameraOutput.requestFullscreen();
-    console.log("Camera Output full screen called");
+    cameraOutput.requestFullscreen()
+    .then(function() {
+        console.log("Camera Output full screen called");
+    })
+    .catch(function(error) {
+        // element could not enter fullscreen mode
+        // error message
+        console.log(error.message);
+    });
 }
 // Take a picture when cameraTrigger is tapped
 cameraTrigger.onclick = function() {
