@@ -26,7 +26,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(75% - 100px);
+    left: calc(65% - 100px);
 }
 #fullScreen{
     width: 150px;
@@ -40,7 +40,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(90% - 75px);
+    left: calc(85% - 75px);
 }
 #front-window-button{
     width: 80px;
@@ -54,7 +54,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(25% - 10px);
+    left: calc(10% - 10px);
 }
 
 #front-bumper-button{
@@ -69,7 +69,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(40% - 20px);
+    left: calc(25% - 20px);
 }
 
 #front-window-right-button{
@@ -84,7 +84,7 @@ html, body{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     position: fixed; 
     bottom: 30px;
-    left: calc(55% - 20px);
+    left: calc(40% - 20px);
 }
 
 .taken{
