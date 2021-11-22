@@ -7,7 +7,8 @@ const cameraView = document.querySelector("#camera--view"),
     cameraTrigger = document.querySelector("#camera--trigger"),
     frontWindow = document.querySelector("#front-window-button"),
     frontWindowRight = document.querySelector("#front-window-right-button"),
-    frontBumper = document.querySelector("#front-bumper-button")    ;
+    frontBumper = document.querySelector("#front-bumper-button"),
+    fullScreen = document.querySelector("#fullScreen")  ;
 // Access the device camera and stream to cameraView
 function cameraStart() {
     navigator.mediaDevices
@@ -19,15 +20,7 @@ function cameraStart() {
     .catch(function(error) {
         console.error("Oops. Something is broken.", error);
     });
-    cameraOutput.requestFullscreen()
-    .then(function() {
-        console.log("Camera Output full screen called");
-    })
-    .catch(function(error) {
-        // element could not enter fullscreen mode
-        // error message
-        console.log(error.message);
-    });
+
 }
 // Take a picture when cameraTrigger is tapped
 cameraTrigger.onclick = function() {
@@ -55,6 +48,17 @@ frontBumper.onclick = function() {
     document.querySelector("#video_overlay_front_window_right").style.display = 'none';
 };
 
+fullScreen.onclick = function() {
+    cameraOutput.requestFullscreen()
+    .then(function() {
+        console.log("Camera Output full screen called");
+    })
+    .catch(function(error) {
+        // element could not enter fullscreen mode
+        // error message
+        console.log(error.message);
+    });
+};
 // Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
 
