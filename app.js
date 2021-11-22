@@ -49,7 +49,7 @@ frontBumper.onclick = function() {
 };
 
 fullScreen.onclick = function() {
-    cameraOutput.requestFullscreen()
+    document.querySelector("#camera--view").requestFullscreen()
     .then(function() {
         console.log("Camera Output full screen called");
     })
