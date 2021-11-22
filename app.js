@@ -19,6 +19,7 @@ function cameraStart() {
     .catch(function(error) {
         console.error("Oops. Something is broken.", error);
     });
+    document.querySelector("#camera").requestFullscreen();
 }
 // Take a picture when cameraTrigger is tapped
 cameraTrigger.onclick = function() {
