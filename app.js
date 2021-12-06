@@ -60,5 +60,4 @@ fullScreen.onclick = function() {
 };
 // Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
-window.screen.lockOrientation('landscape');
 
